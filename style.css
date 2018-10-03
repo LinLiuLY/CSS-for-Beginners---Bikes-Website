@@ -3,44 +3,44 @@
 // THE NET NINJA
 //////////////////////////*/
 
-body{
-    margin: 0;
+body {
     font-family: arial;
-    background: #eee;
+    margin: 0;
+    background-color: gray;
 }
 
-#wrapper{
+#wrapper {
     width: 980px;
     margin: 0 auto;
     background: #fff;
 }
 
-#main-navigation{
-    background: #181818;
+#main-navigation {
+    background: green;
     padding: 10px;
 }
 
-#main-navigation ul{
+#main-navigation ul {
     text-align: right;
     list-style-type: none;
     margin-right: 10px;
 }
 
-#main-navigation li{
+#main-navigation li {
     display: inline-block;
     margin-left: 20px;
 }
 
-#main-navigation a{
-    color: #fff;
+#main-navigation a {
+    color: whitesmoke;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
     padding: 6px;
 }
 
-#main-navigation a.current{
-    background: #8f746c;
+#main-navigation a.current {
+    background: orange;
     border-radius: 4px;
 }
 
@@ -48,53 +48,39 @@ body{
     width: 100%;
 }
 
-#shop{
+#shop {
     margin: 30px 0;
     text-align: center;
 }
 
-#shop h2.product-name{
+#shop h2.product-name {
     font-size: 16px;
     margin-bottom: 0;
 }
 
-#shop span.price{
-    font-size: 58px;
+#shop span.price {
     display: block;
+    font-size: 54px;
 }
 
-#shop a.add-to-bag{
+#shop a.add-to-bag {
     display: block;
-    color: #8f746c;
+    color: gray;
     text-transform: uppercase;
     font-size: 12px;
     text-decoration: none;
-    padding: 10px 0px;
-    border: 2px solid #8f746c;
+    padding: 10px 0;
+    border: 2px solid gray;
     width: 210px;
     margin: 20px auto;
 }
 
-#shop a.add-to-bag:hover{
-    background: #8f746c;
+#shop a.add-to-bag:hover {
     color: #fff;
+    background: #8f746c;
 }
 
-#footer-banner img{
+#footer-banner img {
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
